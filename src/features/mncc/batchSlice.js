@@ -11,5 +11,5 @@ export const ListOfBatch = () => {
 // };
 
 export const SelectById = (id) => {
-    return BATCH_INFO.find((item) => item.id === id)
+    return BATCH_INFO.find((item) => item.id === parseInt(id))
 }

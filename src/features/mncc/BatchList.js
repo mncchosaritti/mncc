@@ -8,10 +8,10 @@ const BatchList = () => {
     return (
         <Row className="ms-auto">
             {
-                completeBatchList.map((Batch) => {
+                completeBatchList.map((batch) => {
                     return (
-                        <Col md='5' className='m-4' key={Batch.id} >
-                            <BatchCard batch={Batch} />
+                        <Col md='5' className='m-4' key={batch.id} >
+                            <BatchCard batch={batch} />
                         </Col>
                     );
                 })

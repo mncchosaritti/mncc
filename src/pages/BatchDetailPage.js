@@ -1,20 +1,25 @@
-import { Container, Row, Col } from 'reactstrap';
-import React, { useState } from 'react';
-import BatchList from '../features/mncc/BatchList';
-import BatchDetail from '../features/mncc/BatchDetail'
-import { SelectById } from '../features/mncc/batchSlice'
+import { Card, CardImg, CardText, CardBody, Container, Col } from 'reactstrap';
+import { useParams } from 'react-router-dom';
+import { SelectById } from '../features/mncc/batchSlice';
+import React from 'react';
 
-
-const BatchPage = () => {
-    const [selectedBatch, selectedId] = useState(0);
-    const selectedBatchById = SelectById(selectedBatch)
+const BatchDetailPage = () => {
+    const { batchId } = useParams()
+    const selectedBatchById = SelectById(batchId)
 
     return (
-        <Container>
-            <BatchList selectedId={selectedId} />
+        <Container key={selectedBatchById.id} md='12' className='m-4'>
+            <Col>
+                <Card>
+                    <CardImg top src={selectedBatchById.image} alt={selectedBatchById.name} />
+                    <CardBody>
+                        <CardText>{selectedBatchById.description}</CardText>
+                    </CardBody>
+                </Card>
+            </Col>
         </Container>
     )
+
 }
 
-
-export default BatchPage
+export default BatchDetailPage

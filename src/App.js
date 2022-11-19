@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
-import BatchPage from './pages/BatchDetailPage';
+import BatchPage from './pages/BatchPage';
+import BatchDetailPage from './pages/BatchDetailPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './features/mncc/Header';
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path='batches' element={<BatchPage />} />
+        <Route path='batches/:batchId' element={<BatchDetailPage />} />
       </Routes>
       <Footer />
     </div>
