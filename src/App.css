@@ -10,6 +10,11 @@
   align-content: center;
 }
 
+.batch-header {
+  text-align: center;
+  background-color: rgb(244, 221, 173);
+}
+
 .cardTitle {
   background-color: #ffffff;
   opacity: 0.75;
