@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mncc/static/css/main.9ed8bd12.css",
-    "main.js": "/mncc/static/js/main.7bc87386.js",
+    "main.css": "/mncc/static/css/main.659cb617.css",
+    "main.js": "/mncc/static/js/main.4523af2f.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/mncc/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/2018_2019.jpeg": "/mncc/static/media/2018_2019.e544e5c9716c86418472.jpeg",
     "static/media/2019_2020.jpeg": "/mncc/static/media/2019_2020.83dad39d35d12f586161.jpeg",
@@ -40,11 +40,11 @@
     "static/media/open-sans-latin-600italic.woff2": "/mncc/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/mncc/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/mncc/index.html",
-    "main.9ed8bd12.css.map": "/mncc/static/css/main.9ed8bd12.css.map",
-    "main.7bc87386.js.map": "/mncc/static/js/main.7bc87386.js.map"
+    "main.659cb617.css.map": "/mncc/static/css/main.659cb617.css.map",
+    "main.4523af2f.js.map": "/mncc/static/js/main.4523af2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ed8bd12.css",
-    "static/js/main.7bc87386.js"
+    "static/css/main.659cb617.css",
+    "static/js/main.4523af2f.js"
   ]
 }
