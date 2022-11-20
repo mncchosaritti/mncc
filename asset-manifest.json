@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/mncc/static/css/main.60a552c2.css",
-    "main.js": "/mncc/static/js/main.f4e7ae1e.js",
+    "main.css": "/mncc/static/css/main.9ed8bd12.css",
+    "main.js": "/mncc/static/js/main.7bc87386.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/mncc/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/2018_2019.jpeg": "/mncc/static/media/2018_2019.e544e5c9716c86418472.jpeg",
     "static/media/2019_2020.jpeg": "/mncc/static/media/2019_2020.83dad39d35d12f586161.jpeg",
     "static/media/2017_2018.jpeg": "/mncc/static/media/2017_2018.1770f38b78aad933709c.jpeg",
+    "static/media/nayanamb.jpeg": "/mncc/static/media/nayanamb.6823957f135364c948b9.jpeg",
+    "static/media/malateshpb.jpeg": "/mncc/static/media/malateshpb.b3ca0eb157efe872dfc5.jpeg",
     "static/media/2020_2021.jpeg": "/mncc/static/media/2020_2021.29fc87ce1328f69b7f22.jpeg",
     "static/media/fontawesome-webfont.eot": "/mncc/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/mncc/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -38,11 +40,11 @@
     "static/media/open-sans-latin-600italic.woff2": "/mncc/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/mncc/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/mncc/index.html",
-    "main.60a552c2.css.map": "/mncc/static/css/main.60a552c2.css.map",
-    "main.f4e7ae1e.js.map": "/mncc/static/js/main.f4e7ae1e.js.map"
+    "main.9ed8bd12.css.map": "/mncc/static/css/main.9ed8bd12.css.map",
+    "main.7bc87386.js.map": "/mncc/static/js/main.7bc87386.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a552c2.css",
-    "static/js/main.f4e7ae1e.js"
+    "static/css/main.9ed8bd12.css",
+    "static/js/main.7bc87386.js"
   ]
 }
