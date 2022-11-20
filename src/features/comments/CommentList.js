@@ -7,7 +7,7 @@ const CommentList = (batchId) => {
     const { batchId: selectId } = batchId
     const finalComments = commentsByBatchID(selectId)
     return (
-        <Container>
+        <div>
             {
                 (finalComments.length > 0) ?
                     finalComments.map((comment) => {
@@ -33,7 +33,7 @@ const CommentList = (batchId) => {
                 <br />
                 ವಿವರಣೆ : " ನಿಮ್ಮ ಅನಿಸಿಕೆ, ಅಭಿಪ್ರಾಯ ನಮ್ಮ ಸಂಸ್ಥೆಯನ್ನು ಸದೃಢಗೊಳಿಸಲು ಸಹಾಯವಾಗುತ್ತದೆ "
             </h6>
-        </Container>
+        </div>
     )
 
 }

@@ -1,6 +1,6 @@
 .logo-image {
-  width: auto;
-  height: 125%;
+  width: 125%;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -10,16 +10,22 @@
   align-content: center;
 }
 
+.teacher-card-title {
+  color: rgba(0, 139, 155, 1);
+}
+
+.teacher-card-subtitle {
+  color: rgb(0, 180, 251);
+}
+
 .batch-header {
   text-align: center;
   background-color: rgb(244, 221, 173);
 }
 
 .teacher-card {
+  margin: 15px;
   border: 2px solid rgba(0, 139, 155, 1);
-  margin: 25px;
- 
-
 }
 
 .cardTitle {

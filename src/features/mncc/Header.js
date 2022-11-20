@@ -9,18 +9,35 @@ const Header = () => {
         <Navbar dark className='navbar' sticky='top' expand='md'>
             <Container >
                 <NavbarBrand href='/'>
-                    <Row>
+                    {/* <Row>
                         <Col>
                             <img className='logo-image' src={Logo} alt='MNCC' />
                         </Col>
                         <Col className="header-content">
                             <h1>ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h1>
                         </Col>
-                    </Row>
+                    </Row> */}
+                    {/* <div className="container">
+                        <div className="col-2">
+                            <img className='logo-image' src={Logo} alt='MNCC' />
+                        </div>
+                        <div className="col-10 header-content" ><h1 className="header-title">ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h1></div>
+
+                    </div> */}
+
                 </NavbarBrand>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-1">
+                            <img className='logo-image' src={Logo} alt='MNCC' />
+                        </div>
+                        <div className="col-11 header-content" ><h3 className="header-title">ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h3></div>
+                    </div>
+
+                </div>
                 <NavbarToggler onClick={() => setMenu(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
-                    <Nav className="ms-auto" navbar onClick={() => setMenu(false)}>
+                    <Nav className="ms-auto col-12" navbar onClick={() => setMenu(false)}>
                         <NavItem >
                             <NavLink className="nav-link" to='/'>
                                 <i className='fa fa-home fa-lg' /> ಪರಿಚಯ
@@ -28,7 +45,7 @@ const Header = () => {
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link" to='/batches'>
-                                <i className='fa fa-graduation-cap fa-lg' /> ಹಳೆಯ ವಿದ್ಯಾರ್ಥಿಗಳು
+                                <i className='fa fa-graduation-cap fa-lg' />  ವಿದ್ಯಾರ್ಥಿಗಳು
                             </NavLink>
                         </NavItem>
                         <NavItem>

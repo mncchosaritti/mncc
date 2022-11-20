@@ -6,14 +6,12 @@ import BatchList from '../features/mncc/BatchList';
 const BatchPage = () => {
 
     return (
-        <Container>
+        <div>
             <div className='batch-header'>
-                <Row>
-                    <h2 > ನಮ್ಮ ಹೆಮ್ಮೆಯ ವಿದ್ಯಾರ್ಥಿಗಳು  </h2>
-                </Row>
+                <h2 > ನಮ್ಮ ಹೆಮ್ಮೆಯ ವಿದ್ಯಾರ್ಥಿಗಳು  </h2>
             </div>
             <BatchList />
-        </Container>
+        </div>
     )
 }
 

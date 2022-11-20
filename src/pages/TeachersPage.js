@@ -4,14 +4,14 @@ import TeacherList from '../features/teachers/TeachersList'
 
 const TeachersPage = () => {
     return (
-        <Container>
+        <div>
             <div className='batch-header'>
                 <h2>ಶಿಕ್ಷಕರು</h2>
             </div>
             <Row>
                 <TeacherList />
             </Row>
-        </Container>
+        </div>
     )
 }
 

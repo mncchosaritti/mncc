@@ -1,12 +1,12 @@
 import React from "react";
 import { ListOfBatch } from './batchSlice'
-import { Col, Row } from 'reactstrap';
+import { Col, Container } from 'reactstrap';
 import BatchCard from "./BatchCard";
 
 const BatchList = () => {
     const completeBatchList = ListOfBatch()
     return (
-        <Row className="ms-auto">
+        <Container className="row">
             {
                 completeBatchList.slice(0).reverse().map((batch) => {
                     console.log("batch ", batch)
@@ -17,7 +17,7 @@ const BatchList = () => {
                     );
                 })
             }
-        </Row>
+        </Container>
     )
 }
 

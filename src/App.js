@@ -20,7 +20,6 @@ function App() {
         <Route path='teachers' element={<TeachersPage />} />
         <Route path='batches/:batchId' element={<BatchDetailPage />} />
       </Routes>
-
       <Footer />
     </div>
   );

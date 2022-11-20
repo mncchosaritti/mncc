@@ -7,16 +7,15 @@ const Teacher = ({ teacher }) => {
         <Container key={id} className="col" >
             <Card className="teacher-card">
                 <img
-
                     alt={name}
                     width="50%"
                     src={image}
                 />
                 <CardBody>
-                    <CardTitle>
-                        <h4>{name} - ({education})</h4>
+                    <CardTitle className='teacher-card-title'>
+                        <h4>{name}-({education})</h4>
                     </CardTitle>
-                    <CardSubtitle>
+                    <CardSubtitle className='teacher-card-subtitle'>
                         <h6> {title} </h6>
                     </CardSubtitle>
                     <CardText>
