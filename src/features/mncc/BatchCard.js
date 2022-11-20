@@ -8,7 +8,7 @@ const BatchCard = ({ batch }) => {
         <Link to={`${id}`}>
             <Card id={id} className="image-card">
                 <CardImg
-                    width='100%'
+                    width="100%"
                     src={image}
                     alt={name}
                 />

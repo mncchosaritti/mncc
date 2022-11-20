@@ -1,0 +1,32 @@
+import { Card, Container, CardTitle, CardBody, CardText, CardSubtitle } from 'reactstrap';
+import React from 'react';
+
+const Teacher = ({ teacher }) => {
+    const { id, description, education, image, name, title } = teacher
+    return (
+        <Container key={id} className="col" >
+            <Card className="teacher-card">
+                <img
+
+                    alt={name}
+                    width="50%"
+                    src={image}
+                />
+                <CardBody>
+                    <CardTitle>
+                        <h4>{name} - ({education})</h4>
+                    </CardTitle>
+                    <CardSubtitle>
+                        <h6> {title} </h6>
+                    </CardSubtitle>
+                    <CardText>
+                        {description}
+                    </CardText>
+                </CardBody>
+            </Card>
+        </Container>
+    )
+
+}
+
+export default Teacher

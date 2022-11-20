@@ -6,23 +6,6 @@ import { Container } from 'reactstrap'
 const CommentList = (batchId) => {
     const { batchId: selectId } = batchId
     const finalComments = commentsByBatchID(selectId)
-    const displayConditionalComment = () => {
-        if (finalComments.length > 0) {
-            finalComments.map((comment) => {
-                return (
-                    <Container key={comment.id}>
-                        <Comment comment={comment} />
-                    </Container>
-                );
-            })
-        } else {
-            return (
-                <h3>
-                    Nothing display..!
-                </h3>
-            )
-        }
-    }
     return (
         <Container>
             {

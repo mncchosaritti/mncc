@@ -1,7 +1,6 @@
 import { Card, CardImg, CardText, CardBody, Container, Col } from 'reactstrap';
 import { useParams } from 'react-router-dom';
 import { SelectById } from '../features/mncc/batchSlice';
-import { commentsByBatchID } from '../features/comments/commentSlice'
 import React from 'react';
 import CommentList from '../features/comments/CommentList'
 

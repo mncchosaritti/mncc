@@ -32,7 +32,7 @@ const Header = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to='/'>
+                            <NavLink className="nav-link" to='/teachers'>
                                 <i className='fa fa-users fa-lg' /> ಶಿಕ್ಷಕ ವೃಂದ
                             </NavLink>
                         </NavItem>

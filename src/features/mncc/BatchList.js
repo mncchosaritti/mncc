@@ -8,7 +8,8 @@ const BatchList = () => {
     return (
         <Row className="ms-auto">
             {
-                completeBatchList.map((batch) => {
+                completeBatchList.slice(0).reverse().map((batch) => {
+                    console.log("batch ", batch)
                     return (
                         <Col md='5' className='m-4' key={batch.id} >
                             <BatchCard batch={batch} />
