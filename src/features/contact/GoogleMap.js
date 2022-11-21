@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 
-const FINAL_API_KEY = "AIzaSyC1V5iQzIKmNEf_ZXz50_iKBalGOvk9mOM"
+// const FINAL_API_KEY = "AIzaSyC1V5iQzIKmNEf_ZXz50_iKBalGOvk9mOM"
 
 // const GoogleMapContainer = () => {
 //     return (
@@ -56,5 +56,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: FINAL_API_KEY 
+    apiKey: FINAL_API_KEY
 })(MapContainer);
