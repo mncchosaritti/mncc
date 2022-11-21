@@ -7,10 +7,7 @@ const Footer = () => {
         <div className="footer">
             <Container >
                 <Row>
-                    {/* <Col xs={{ size: 4, offset: 1 }} sm='2'>
-                    <h5>this will be site navigation!</h5>
-                </Col> */}
-                    <Col xs='6' sm='3' className='text-center'>
+                    <Col className='text-center footer-content'>
                         <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
@@ -37,7 +34,7 @@ const Footer = () => {
                             <i className='fa fa-youtube' />
                         </a>
                     </Col>
-                    <Col sm='4' className='text-center'>
+                    {/* <Col  className='text-center'>
                         <a
                             role='button'
                             className='btn btn-link'
@@ -53,7 +50,7 @@ const Footer = () => {
                         >
                             <i className='fa fa-envelope-o' /> mncchosaritti@gmail.com
                         </a>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </div >

@@ -14,6 +14,7 @@ function App() {
     <div>
       <Header />
       <Routes>
+
         <Route path='/' element={<HomePage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path='batches' element={<BatchPage />} />

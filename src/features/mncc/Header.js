@@ -23,7 +23,7 @@ const Header = () => {
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className="ms-auto col-12" navbar onClick={() => setMenu(false)}>
                         <NavItem >
-                            <NavLink className="nav-link" to='/'>
+                            <NavLink className="nav-link" to='/' >
                                 <i className='fa fa-home fa-lg' /> ಪರಿಚಯ
                             </NavLink>
                         </NavItem>
