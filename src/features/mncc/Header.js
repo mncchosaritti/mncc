@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Container, Navbar, Nav, NavItem, NavbarBrand, Row, Col, NavbarToggler, Collapse } from "reactstrap";
+import { Container, Navbar, Nav, NavItem, NavbarBrand, NavbarToggler, Collapse } from "reactstrap";
 import Logo from '../../app/assets/saraswati.png'
 
 const Header = () => {
@@ -9,29 +9,13 @@ const Header = () => {
         <Navbar dark className='navbar' sticky='top' expand='md'>
             <Container >
                 <NavbarBrand href='/'>
-                    {/* <Row>
-                        <Col>
-                            <img className='logo-image' src={Logo} alt='MNCC' />
-                        </Col>
-                        <Col className="header-content">
-                            <h1>ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h1>
-                        </Col>
-                    </Row> */}
-                    {/* <div className="container">
-                        <div className="col-2">
-                            <img className='logo-image' src={Logo} alt='MNCC' />
-                        </div>
-                        <div className="col-10 header-content" ><h1 className="header-title">ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h1></div>
-
-                    </div> */}
-
                 </NavbarBrand>
                 <div className="container">
                     <div className="row">
-                        <div className="col-1">
+                        <div className="col-3 col-md-2 col-lg-2">
                             <img className='logo-image' src={Logo} alt='MNCC' />
                         </div>
-                        <div className="col-11 header-content" ><h3 className="header-title">ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h3></div>
+                        <div className="col-9 col-md-10 col-lg-10 header-content" ><h3 className="header-title">ಶ್ರೀ ಮೃತ್ಯುಂಜಯ ನವೋದಯ ಕೋಚಿಂಗ್ ಕ್ಲಾಸ್(ರಿ) - ಹೊಸರಿತ್ತಿ</h3></div>
                     </div>
 
                 </div>

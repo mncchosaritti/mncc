@@ -1,5 +1,5 @@
 .logo-image {
-  width: 125%;
+  width: 100%;
   height: auto;
   border-radius: 50%;
 }
@@ -10,22 +10,39 @@
   align-content: center;
 }
 
-.teacher-card-title {
+.teacher-card-title,
+.contact-us-title {
   color: rgba(0, 139, 155, 1);
+}
+
+.get-in-touch,
+.contact-us-image {
+  text-align: center;
+}
+
+.contact-us-image,
+.homepage-titles {
+  background-color: rgb(222, 237, 241);
 }
 
 .teacher-card-subtitle {
   color: rgb(0, 180, 251);
 }
 
-.batch-header {
+.imagecard {
+  display: flexbox;
+}
+
+.batch-header,
+.get-in-touch-title {
   text-align: center;
   background-color: rgb(244, 221, 173);
 }
 
-.teacher-card {
-  margin: 15px;
-  border: 2px solid rgba(0, 139, 155, 1);
+.general-card,
+.contact-us {
+  margin: 10px;
+  padding: 10px;
 }
 
 .cardTitle {
@@ -35,7 +52,7 @@
 
 .image-card:hover {
   background: #e1e1e1;
-  border: 2px solid rgba(0, 139, 155, 1);
+  border: 5px solid rgba(0, 139, 155, 1);
   /* display: inline-flex; */
   cursor: pointer;
 }

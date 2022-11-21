@@ -1,27 +1,28 @@
 
-import { Container, Col, Row } from 'reactstrap'
+import { Row } from 'reactstrap'
 import { ListOfTeachers } from './teacherSlice'
 import React from 'react'
 import Teacher from "./Teacher";
 
 const TeacherList = () => {
     const listOfTeachers = ListOfTeachers()
-    console.log("list of teachers -> ", listOfTeachers)
     return (
-        <div className='row'>
+        <Row className='row'>
             {
                 listOfTeachers.map((teacher) => {
-                    console.log("Teacher value -> ", teacher)
                     return (
-                            <Col>
-                                <Teacher teacher={teacher} />
-                            </Col>
-    
+                        // <Col className="general-card" key={teacher.id}>
+                        //     <Row>
+                        <Teacher teacher={teacher} />
+                        //     </Row>
+
+                        // </Col>
+
                     )
                 })
             }
 
-        </div>
+        </Row>
 
     )
 

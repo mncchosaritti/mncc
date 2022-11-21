@@ -5,7 +5,7 @@ const Teacher = ({ teacher }) => {
     const { id, description, education, image, name, title } = teacher
     return (
         <Container key={id} className="col" >
-            <Card className="teacher-card">
+            <Card className="general-card border-0">
                 <img
                     alt={name}
                     width="50%"

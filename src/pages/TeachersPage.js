@@ -1,17 +1,19 @@
 import React from 'react'
-import { Container, Row } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import TeacherList from '../features/teachers/TeachersList'
 
 const TeachersPage = () => {
     return (
-        <div>
-            <div className='batch-header'>
-                <h2>ಶಿಕ್ಷಕರು</h2>
-            </div>
+        <Container>
             <Row>
-                <TeacherList />
+                <div className='batch-header'>
+                    <h5><b>ಶಿಕ್ಷಕರು</b></h5>
+                </div>
             </Row>
-        </div>
+            <Col>
+                <TeacherList />
+            </Col>
+        </Container>
     )
 }
 

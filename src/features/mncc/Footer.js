@@ -43,7 +43,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='tel:+919743857309'
                         >
-                            <i className='fa fa-phone' /> +91-974-385-7309
+                            <i className='fa fa-phone' /> +919743857309
                         </a>
                         <br />
                         <a
