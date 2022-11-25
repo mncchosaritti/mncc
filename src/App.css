@@ -6,22 +6,26 @@
 
 .header-content {
   display: flex;
+  color: #ffffff9c;
   flex-wrap: wrap;
   align-content: center;
 }
 
 .teacher-card-title,
-.contact-us-title {
+.contact-us-title,
+.information-title {
   color: rgba(0, 139, 155, 1);
 }
 
 .get-in-touch,
-.contact-us-image {
+.contact-us-image,
+.information-title {
   text-align: center;
 }
 
 .contact-us-image,
-.homepage-titles {
+.homepage-titles,
+.information-title {
   background-color: rgb(222, 237, 241);
 }
 
@@ -34,6 +38,7 @@
 }
 
 .batch-header,
+.general-header,
 .get-in-touch-title {
   text-align: center;
   background-color: rgb(244, 221, 173);

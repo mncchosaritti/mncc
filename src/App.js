@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './features/mncc/Header';
 import Footer from './features/mncc/Footer';
+import InformationPage from './pages/InformationPage'
 import './App.css';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Header />
       <Routes>
 
-        <Route path='/' element={<HomePage />} />
+        <Route path='' element={<HomePage />} />
+        <Route path='info' element={<InformationPage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path='batches' element={<BatchPage />} />
         <Route path='teachers' element={<TeachersPage />} />
