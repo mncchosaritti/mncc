@@ -1,6 +1,7 @@
 import React from "react";
 import { EnteranceExam, Facilities, ThingsToBring } from "../features/information/Information";
-import { Container, Col, Row } from "reactstrap";
+import { Container, Row } from "reactstrap";
+import { animated } from 'react-spring'
 
 const InformationPage = () => {
 
